@@ -1,0 +1,3 @@
+collections:
+  tests:
+    output: true
