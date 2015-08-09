@@ -5,9 +5,9 @@ title: WCAG Failures
 
 <h1>{{ page.title }}</h1>
 
-{% assign tests = site.tests | where:"gl","WCAG" | where:"type","Fail" %}
+{% assign tests = site.tests | where:"gl","wcag" | where:"type","fail" %}
 {% for test in tests %}
-	<h2>{{ test.glnum }} Level ({{ test.gllevel }}) {{ test.glname }}</h2>
+	<h2>{{ test.glnum }} Level ({{ test.gllevel | upcase }}) {{ test.glname }}</h2>
 
 	{{ test.content }}
 {% endfor %}

@@ -7,8 +7,7 @@
 <body>
 {% include testheader.html %}
 
-<h1>{{ page.type }} - {{ page.gl }} {{ page.glnum }} Level ({{ page.gllevel }}) {{ page.glname }}</h1>
-<a href="/tests/{{ page.gl }}/{{ page.nottype }}/{{ page.glnum }}.html">Switch to {{ page.nottype }} for {{ page.glname }}</a>
+<h1>{{ page.type | capitalize }} - {{ page.gl | upcase }} {{ page.glnum }} Level ({{ page.gllevel | upcase }}) {{ page.glname }}</h1>
 
 {{ content }}
 
