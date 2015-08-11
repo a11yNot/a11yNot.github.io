@@ -1,6 +1,10 @@
 collections:
   tests:
     output: true
+tags:
+- newtag
+- tag1
+- tag2
 defaults:
   -
     scope:

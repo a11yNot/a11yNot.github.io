@@ -1,3 +1,21 @@
+{% assign test = page %}
+{% if test.tags.size > 0 %}
+    {% capture tags_content %}{% if test.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}{% endcapture %}
+    {% for test_tag in test.tags %}
+        {% for data_tag in site.data.tags %}
+            {% if data_tag.slug == test_tag %}
+                {% assign tag = data_tag %}
+            {% endif %}
+        {% endfor %}
+        {% if tag %}
+            {% capture tags_content_temp %}{{ tags_content }}<li><a href="/tests/tag/{{ tag.slug }}">{{ tag.name }}</a>{% if forloop.last == false %}{% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,6 +24,11 @@
 
 <body>
 {% include testheader.html %}
+
+<h3>Browse by Feature</h3>
+<ul>
+	{{ tags_content }}
+</ul>
 
 <h1>{{ page.type | capitalize }} - {{ page.gl | upcase }} {{ page.glnum }} Level ({{ page.gllevel | upcase }}) {{ page.glname }}</h1>
 

@@ -1,0 +1,4 @@
+<h1>Tests by tag: {{ page.tag }}</h1>
+	<ul>{% for test in site.tests %}{% for tag in test.tags %}{% if tag == page.tag %}
+		<li><a href="{{ test.url }}">{{ test.title }}</a>{% endif %}{% endfor %}{% endfor %}
+	</ul>
