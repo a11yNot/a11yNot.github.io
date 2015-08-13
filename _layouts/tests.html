@@ -1,6 +1,5 @@
 {% assign test = page %}
 {% if test.tags.size > 0 %}
-    {% capture tags_content %}{% if test.tags.size == 1 %}<i class="fa fa-tag"></i>{% else %}<i class="fa fa-tags"></i>{% endif %}{% endcapture %}
     {% for test_tag in test.tags %}
         {% for data_tag in site.data.tags %}
             {% if data_tag.slug == test_tag %}
