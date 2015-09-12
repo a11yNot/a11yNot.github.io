@@ -1,3 +1,7 @@
+.gist {
+	max-width: 75%;
+}
+
 .gist .pl-ent {
 	color: #4A7A45 !important;
 }

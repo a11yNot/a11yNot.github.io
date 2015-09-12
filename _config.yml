@@ -1,9 +1,9 @@
 collections:
-  tests:
+  nots:
     output: true
 defaults:
   -
     scope:
       path: ""
     values:
-      layout: "tests"
+      layout: "nots"

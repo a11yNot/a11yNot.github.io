@@ -1,4 +1,210 @@
-- slug: img
-  name: img
+- slug: image
+  name: image
 - slug: audio
   name: audio
+- slug: video
+  name: video
+- slug: caption
+  name: caption
+- slug: transcript
+  name: transcript
+- slug: form
+  name: form
+- slug: table
+  name: table
+- slug: color
+  name: color
+- slug: contrast
+  name: contrast
+- slug: link
+  name: link
+- slug: keyboard
+  name: keyboard
+- slug: focus
+  name: focus
+- slug: language
+  name: language
+- slug: heading
+  name: heading
+- slug: landmark
+  name: landmark
+- slug: name
+  name: name
+- slug: state
+  name: state
+- slug: property
+  name: property
+- slug: role
+  name: role
+- slug: error
+  name: error
+- slug: instructions
+  name: instructions
+- slug: label
+  name: label
+- slug: title
+  name: title
+- slug: timing
+  name: timing
+- slug: wcaga
+  name: WCAG 2.0 A
+- slug: wcagaa
+  name: WCAG 2.0 AA
+- slug: wcagaaa
+  name: WCAG 2.0 AAA
+- slug: wcag111
+  name: WCAG 2.0 111
+- slug: wcag121
+  name: WCAG 2.0 121
+- slug: wcag122
+  name: WCAG 2.0 122
+- slug: wcag123
+  name: WCAG 2.0 123
+- slug: wcag124
+  name: WCAG 2.0 124
+- slug: wcag125
+  name: WCAG 2.0 125
+- slug: wcag126
+  name: WCAG 2.0 126
+- slug: wcag127
+  name: WCAG 2.0 127
+- slug: wcag128
+  name: WCAG 2.0 128
+- slug: wcag129
+  name: WCAG 2.0 129
+- slug: wcag131
+  name: WCAG 2.0 131
+- slug: wcag132
+  name: WCAG 2.0 132
+- slug: wcag133
+  name: WCAG 2.0 133
+- slug: wcag141
+  name: WCAG 2.0 141
+- slug: wcag142
+  name: WCAG 2.0 142
+- slug: wcag143
+  name: WCAG 2.0 143
+- slug: wcag144
+  name: WCAG 2.0 144
+- slug: wcag145
+  name: WCAG 2.0 145
+- slug: wcag146
+  name: WCAG 2.0 146
+- slug: wcag147
+  name: WCAG 2.0 147
+- slug: wcag148
+  name: WCAG 2.0 148
+- slug: wcag149
+  name: WCAG 2.0 149
+- slug: wcag211
+  name: WCAG 2.0 211
+- slug: wcag212
+  name: WCAG 2.0 212
+- slug: wcag213
+  name: WCAG 2.0 213
+- slug: wcag221
+  name: WCAG 2.0 221
+- slug: wcag222
+  name: WCAG 2.0 222
+- slug: wcag223
+  name: WCAG 2.0 223
+- slug: wcag224
+  name: WCAG 2.0 224
+- slug: wcag225
+  name: WCAG 2.0 225
+- slug: wcag231
+  name: WCAG 2.0 231
+- slug: wcag232
+  name: WCAG 2.0 232
+- slug: wcag241
+  name: WCAG 2.0 241
+- slug: wcag242
+  name: WCAG 2.0 242
+- slug: wcag243
+  name: WCAG 2.0 243
+- slug: wcag244
+  name: WCAG 2.0 244
+- slug: wcag245
+  name: WCAG 2.0 245
+- slug: wcag246
+  name: WCAG 2.0 246
+- slug: wcag247
+  name: WCAG 2.0 247
+- slug: wcag248
+  name: WCAG 2.0 248
+- slug: wcag249
+  name: WCAG 2.0 249
+- slug: wcag2410
+  name: WCAG 2.0 2410
+- slug: wcag311
+  name: WCAG 2.0 311
+- slug: wcag312
+  name: WCAG 2.0 312
+- slug: wcag313
+  name: WCAG 2.0 313
+- slug: wcag314
+  name: WCAG 2.0 314
+- slug: wcag315
+  name: WCAG 2.0 315
+- slug: wcag316
+  name: WCAG 2.0 316
+- slug: wcag321
+  name: WCAG 2.0 321
+- slug: wcag322
+  name: WCAG 2.0 322
+- slug: wcag323
+  name: WCAG 2.0 323
+- slug: wcag324
+  name: WCAG 2.0 324
+- slug: wcag325
+  name: WCAG 2.0 325
+- slug: wcag331
+  name: WCAG 2.0 331
+- slug: wcag332
+  name: WCAG 2.0 332
+- slug: wcag333
+  name: WCAG 2.0 333
+- slug: wcag334
+  name: WCAG 2.0 334
+- slug: wcag335
+  name: WCAG 2.0 335
+- slug: wcag336
+  name: WCAG 2.0 336
+- slug: wcag411
+  name: WCAG 2.0 411
+- slug: wcag412
+  name: WCAG 2.0 412
+- slug: 508
+  name: Section 508
+- slug: 508a
+  name: Section 508a
+- slug: 508b
+  name: Section 508b
+- slug: 508c
+  name: Section 508c
+- slug: 508d
+  name: Section 508d
+- slug: 508e
+  name: Section 508e
+- slug: 508f
+  name: Section 508f
+- slug: 508g
+  name: Section 508g
+- slug: 508h
+  name: Section 508h
+- slug: 508i
+  name: Section 508i
+- slug: 508j
+  name: Section 508j
+- slug: 508k
+  name: Section 508k
+- slug: 508l
+  name: Section 508l
+- slug: 508m
+  name: Section 508m
+- slug: 508n
+  name: Section 508n
+- slug: 508o
+  name: Section 508o
+- slug: 508p
+  name: Section 508p
