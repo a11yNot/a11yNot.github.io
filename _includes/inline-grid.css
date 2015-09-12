@@ -3,11 +3,11 @@
 
 	body {
 	display: grid;
-	grid-template-rows: auto auto;
-	grid-template-columns: auto auto;
+	grid-template-rows: auto;
+	grid-template-columns: auto;
 	grid-template-areas:
-		"header header"
-		"navigation content";
+		"header"
+		"content";
 	}
 	
 	header {
@@ -25,16 +25,10 @@
 		height: 25px;;
 	}
 
-	nav[aria-label="Browse by Guideline"] {
-		grid-area: navigation;
-		margin: 5px;
-		margin-left: 20px;
-		padding: 15px;
-		border: 1px solid blue;
-	}
 	main {
 		grid-area: content;
 		margin: 5px;
+		margin-left: 20px;
 		margin-right: 20px;
 		padding: 15px;
 		border: 1px solid green;
@@ -48,11 +42,9 @@
 	grid-template-columns: auto;
 	grid-template-areas:
 		"header"
-		"content"
-		"navigation";
+		"content";
 	}
 	
 	header { grid-area: header; border: 1px solid red;}
-	nav[aria-label="Browse by Guideline"] { grid-area: navigation; border: 1px solid blue;}
 	main { grid-area: content; border: 1px solid green;}
 }
