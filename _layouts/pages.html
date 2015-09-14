@@ -5,11 +5,12 @@
 </head>
 
 <body>
-{% include notheader.html %}
-
+{% include header.html %}
+<main>
 {{ content }}
-
+</main>
 {% include googleAnalytics.html %}
 
+<script async defer src="{{ site.baseurl }}/includes/js/css-polyfills.min.js"></script>
 </body>
 </html>

@@ -1,1 +1,10 @@
-Hello World!
+---
+layout: pages
+title: Home&#58; All Nots
+---
+
+<h1>All Nots</h1>
+{% assign nots = site.nots %}
+<ul>{% for not in nots %}
+	<li><a href="{{ not.url }}">{{ not.title }}</a>
+{% endfor %}</ul>

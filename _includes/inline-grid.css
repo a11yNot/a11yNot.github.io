@@ -2,36 +2,26 @@
 @media (orientation: landscape) {
 
 	body {
-	display: grid;
-	grid-template-rows: auto;
-	grid-template-columns: auto;
-	grid-template-areas:
-		"header"
-		"content";
-	}
-	
-	header {
-		grid-area: header;
-		border-bottom: 1px solid red;
+		margin: 0;
+		display: grid;
+		grid-template-rows: 0px auto 0px auto;
+		grid-template-columns: 20px minmax(min-content,1fr) minmax(min-content,1fr) 20px;
+		grid-template-areas:
+			". . . ."
+			"header header header header"
+			". . . ."
+			". content content .";
 	}
 
-	header h2 {
-		margin-left: 20px;
-		margin-bottom: 10px;
-	}
-	
-	header h2 img {
-		margin-right: 3px;
-		height: 25px;;
+	header {
+		grid-area: header;
+		border-bottom: 4px solid black;
 	}
 
 	main {
 		grid-area: content;
-		margin: 5px;
-		margin-left: 20px;
-		margin-right: 20px;
-		padding: 15px;
-		border: 1px solid green;
+		border: 1px solid grey;
+		border-top: none;
 	}
 }
 

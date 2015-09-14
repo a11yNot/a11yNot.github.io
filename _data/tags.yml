@@ -53,127 +53,127 @@
 - slug: wcagaaa
   name: WCAG 2.0 AAA
 - slug: wcag111
-  name: WCAG 2.0 111
+  name: WCAG 2.0 1.1.1
 - slug: wcag121
-  name: WCAG 2.0 121
+  name: WCAG 2.0 1.2.1
 - slug: wcag122
-  name: WCAG 2.0 122
+  name: WCAG 2.0 1.2.2
 - slug: wcag123
-  name: WCAG 2.0 123
+  name: WCAG 2.0 1.2.3
 - slug: wcag124
-  name: WCAG 2.0 124
+  name: WCAG 2.0 1.2.4
 - slug: wcag125
-  name: WCAG 2.0 125
+  name: WCAG 2.0 1.2.5
 - slug: wcag126
-  name: WCAG 2.0 126
+  name: WCAG 2.0 1.2.6
 - slug: wcag127
-  name: WCAG 2.0 127
+  name: WCAG 2.0 1.2.7
 - slug: wcag128
-  name: WCAG 2.0 128
+  name: WCAG 2.0 1.2.8
 - slug: wcag129
-  name: WCAG 2.0 129
+  name: WCAG 2.0 1.2.9
 - slug: wcag131
-  name: WCAG 2.0 131
+  name: WCAG 2.0 1.3.1
 - slug: wcag132
-  name: WCAG 2.0 132
+  name: WCAG 2.0 1.3.2
 - slug: wcag133
-  name: WCAG 2.0 133
+  name: WCAG 2.0 1.3.3
 - slug: wcag141
-  name: WCAG 2.0 141
+  name: WCAG 2.0 1.4.1
 - slug: wcag142
-  name: WCAG 2.0 142
+  name: WCAG 2.0 1.4.2
 - slug: wcag143
-  name: WCAG 2.0 143
+  name: WCAG 2.0 1.4.3
 - slug: wcag144
-  name: WCAG 2.0 144
+  name: WCAG 2.0 1.4.4
 - slug: wcag145
-  name: WCAG 2.0 145
+  name: WCAG 2.0 1.4.5
 - slug: wcag146
-  name: WCAG 2.0 146
+  name: WCAG 2.0 1.4.6
 - slug: wcag147
-  name: WCAG 2.0 147
+  name: WCAG 2.0 1.4.7
 - slug: wcag148
-  name: WCAG 2.0 148
+  name: WCAG 2.0 1.4.8
 - slug: wcag149
-  name: WCAG 2.0 149
+  name: WCAG 2.0 1.4.9
 - slug: wcag211
-  name: WCAG 2.0 211
+  name: WCAG 2.0 2.1.1
 - slug: wcag212
-  name: WCAG 2.0 212
+  name: WCAG 2.0 2.1.2
 - slug: wcag213
-  name: WCAG 2.0 213
+  name: WCAG 2.0 2.1.3
 - slug: wcag221
-  name: WCAG 2.0 221
+  name: WCAG 2.0 2.2.1
 - slug: wcag222
-  name: WCAG 2.0 222
+  name: WCAG 2.0 2.2.2
 - slug: wcag223
-  name: WCAG 2.0 223
+  name: WCAG 2.0 2.2.3
 - slug: wcag224
-  name: WCAG 2.0 224
+  name: WCAG 2.0 2.2.4
 - slug: wcag225
-  name: WCAG 2.0 225
+  name: WCAG 2.0 2.2.5
 - slug: wcag231
-  name: WCAG 2.0 231
+  name: WCAG 2.0 2.3.1
 - slug: wcag232
-  name: WCAG 2.0 232
+  name: WCAG 2.0 2.3.2
 - slug: wcag241
-  name: WCAG 2.0 241
+  name: WCAG 2.0 2.4.1
 - slug: wcag242
-  name: WCAG 2.0 242
+  name: WCAG 2.0 2.4.2
 - slug: wcag243
-  name: WCAG 2.0 243
+  name: WCAG 2.0 2.4.3
 - slug: wcag244
-  name: WCAG 2.0 244
+  name: WCAG 2.0 2.4.4
 - slug: wcag245
-  name: WCAG 2.0 245
+  name: WCAG 2.0 2.4.5
 - slug: wcag246
-  name: WCAG 2.0 246
+  name: WCAG 2.0 2.4.6
 - slug: wcag247
-  name: WCAG 2.0 247
+  name: WCAG 2.0 2.4.7
 - slug: wcag248
-  name: WCAG 2.0 248
+  name: WCAG 2.0 2.4.8
 - slug: wcag249
-  name: WCAG 2.0 249
+  name: WCAG 2.0 2.4.9
 - slug: wcag2410
-  name: WCAG 2.0 2410
+  name: WCAG 2.0 2.4.10
 - slug: wcag311
-  name: WCAG 2.0 311
+  name: WCAG 2.0 3.1.1
 - slug: wcag312
-  name: WCAG 2.0 312
+  name: WCAG 2.0 3.1.2
 - slug: wcag313
-  name: WCAG 2.0 313
+  name: WCAG 2.0 3.1.3
 - slug: wcag314
-  name: WCAG 2.0 314
+  name: WCAG 2.0 3.1.4
 - slug: wcag315
-  name: WCAG 2.0 315
+  name: WCAG 2.0 3.1.5
 - slug: wcag316
-  name: WCAG 2.0 316
+  name: WCAG 2.0 3.1.6
 - slug: wcag321
-  name: WCAG 2.0 321
+  name: WCAG 2.0 3.2.1
 - slug: wcag322
-  name: WCAG 2.0 322
+  name: WCAG 2.0 3.2.2
 - slug: wcag323
-  name: WCAG 2.0 323
+  name: WCAG 2.0 3.2.3
 - slug: wcag324
-  name: WCAG 2.0 324
+  name: WCAG 2.0 3.2.4
 - slug: wcag325
-  name: WCAG 2.0 325
+  name: WCAG 2.0 3.2.5
 - slug: wcag331
-  name: WCAG 2.0 331
+  name: WCAG 2.0 3.3.1
 - slug: wcag332
-  name: WCAG 2.0 332
+  name: WCAG 2.0 3.3.2
 - slug: wcag333
-  name: WCAG 2.0 333
+  name: WCAG 2.0 3.3.3
 - slug: wcag334
-  name: WCAG 2.0 334
+  name: WCAG 2.0 3.3.4
 - slug: wcag335
-  name: WCAG 2.0 335
+  name: WCAG 2.0 3.3.5
 - slug: wcag336
-  name: WCAG 2.0 336
+  name: WCAG 2.0 3.3.6
 - slug: wcag411
-  name: WCAG 2.0 411
+  name: WCAG 2.0 4.1.1
 - slug: wcag412
-  name: WCAG 2.0 412
+  name: WCAG 2.0 4.1.2
 - slug: 508
   name: Section 508
 - slug: 508a
