@@ -16,7 +16,7 @@
 		border-bottom: 4px solid black;
 	}
 
-	nav {
+	nav[aria-label="Main Navigation"] {
 		grid-area: mainnav;
 		border-bottom: 4px solid black;
 	}
@@ -49,7 +49,7 @@
 		border-bottom: 2px solid black;
 	}
 	
-	nav {
+	nav[aria-label="Main Navigation"] {
 		grid-area: mainnav;
 	}
 }
