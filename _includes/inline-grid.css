@@ -4,12 +4,10 @@
 	body {
 		margin: 0;
 		display: grid;
-		grid-template-rows: 0px auto 0px auto;
+		grid-template-rows: auto;
 		grid-template-columns: 20px minmax(min-content,1fr) minmax(min-content,1fr) 20px;
 		grid-template-areas:
-			". . . ."
-			"header header header header"
-			". . . ."
+			"header header mainnav mainnav"
 			". content content .";
 	}
 
@@ -18,6 +16,11 @@
 		border-bottom: 4px solid black;
 	}
 
+	nav {
+		grid-area: mainnav;
+		border-bottom: 4px solid black;
+	}
+	
 	main {
 		grid-area: content;
 		border: 1px solid grey;
@@ -32,9 +35,21 @@
 	grid-template-columns: auto;
 	grid-template-areas:
 		"header"
-		"content";
+		"content"
+		"mainnav";
 	}
 	
-	header { grid-area: header; border: 1px solid red;}
-	main { grid-area: content; border: 1px solid green;}
+	header {
+		grid-area: header;
+	}
+	
+	main {
+		grid-area: content;
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+	}
+	
+	nav {
+		grid-area: mainnav;
+	}
 }

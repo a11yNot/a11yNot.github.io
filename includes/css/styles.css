@@ -1,9 +1,23 @@
 @import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
 @import url(gist.css);
 
+header a, nav a {
+	text-decoration: none;
+}
+
+header h2 img {
+	margin-right: 3px;
+	height: 25px;
+}
+
+nav ul li {
+	display: inline;
+	list-style: none;
+}
+
 @media (orientation: landscape) {
-	
-	header {
+
+	header, nav {
 		padding-top: 10px;
 		padding-left: 20px;
 		padding-right: 20px;
@@ -14,36 +28,32 @@
 		float: left;
 		margin: 0;
 	}
-	
-	header a {
-		text-decoration: none;
-	}
-	
-	header h2 img {
-		margin-right: 3px;
-		height: 25px;
-	}
 
-	header nav {
+	nav ul {
 		float: right;
-	}
-	
-	header nav ul {
 		margin: 0;
 		padding-left: 0px;
 		padding-right: 20px;
 	}
-	
-	header nav ul li {
-		display: inline;
-		list-style: none;
+
+	nav ul li {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
-	
+
 	main {
 		padding: 15px;
 	}
 }
 
+@media (orientation: portrait) {
+
+	header h2, nav ul {
+		display: flex;
+	}
+
+	header h2 a, nav ul li {
+		flex-grow: 1;
+	}
+	
 }
