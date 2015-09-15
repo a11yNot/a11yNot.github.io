@@ -15,7 +15,10 @@ tags:
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Not Begin</h2>
+<div class="rendered-not">
 <!-- Replace this comment with the code from the gist -->
+</div> <!-- rendered-not -->
+
 <h2 aria-describedby="{{ page.gistID }}">Not End</h2>
 
 <h3 aria-describedby="{{ page.gistID }}">Code for Example</h3>
