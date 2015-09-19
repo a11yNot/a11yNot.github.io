@@ -1,6 +1,6 @@
 ---
 title: Broken Same-Page Link
-gistID: 
+gistID: b72fe62bcf7a2ed0617d
 tags:
 - link
 ---
