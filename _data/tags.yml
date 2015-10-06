@@ -1,3 +1,13 @@
+- slug: axe
+  name: aXe
+- slug: codesniffer
+  name: HTML CodeSniffer
+- slug: devtools
+  name: Accessibility Developer Tools
+- slug: tenon
+  name: Tenon
+- slug: wave
+  name: WAVE
 - slug: image
   name: image
 - slug: audio
