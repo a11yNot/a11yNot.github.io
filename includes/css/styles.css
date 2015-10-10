@@ -9,7 +9,7 @@ header a, nav[aria-label="Main Navigation"] a {
 	text-decoration: none;
 }
 
-header > h2 img {
+header img {
 	margin-right: 3px;
 	height: 25px;
 }
@@ -39,11 +39,6 @@ main {
 		padding-bottom: 10px;
 	}
 
-	header > h2 {
-		float: left;
-		margin: 0;
-	}
-
 	nav[aria-label="Main Navigation"] ul {
 		float: right;
 		margin: 0;
@@ -51,6 +46,11 @@ main {
 		padding-right: 20px;
 	}
 
+	header a {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+	
 	nav[aria-label="Main Navigation"] ul li {
 		padding-left: 10px;
 		padding-right: 10px;
@@ -67,7 +67,9 @@ main {
 		padding: 15px;
 	}
 	
-	header > h2 {
+	header > a {
+		font-size: 1.5em;
+		font-weight: bold;
 		width: 30%;
 		margin: 5px;
 		margin-left: auto;
