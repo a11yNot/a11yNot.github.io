@@ -4,58 +4,53 @@ layout: nots
 ---
 
 <h2>Embedded Code</h2>
-<iframe height='268' scrolling='no' src='//codepen.io/garcialo/embed/avWKKE/?height=268&theme-id=0&default-tab=result' title="embed codepen" frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+<iframe height='268' scrolling='no' src='//codepen.io/garcialo/embed/avWKKE/?height=268&theme-id=8&default-tab=html' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
 
-<h2>Mitigation Steps So-far Taken</h2>
-<ul>
-	<li>Added title to the iframe code used for the embed.
-</ul>
+<h2>Suggested Remediations</h2>
+		<ul>
+			<li>Change #output .cm-tag color from #9A6E35 to #A7925A
+			<li>Don't hide "RERUN" button by changing the opacity.
+			<li>Specify LANG attribute in HTML element under id=result-iframe.
+		</ul>
 
-<h2>Tools to Run</h2>
-
-<ul>
-	<li><a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh">WAVE for Chrome</a>
-	<li><a href="http://wave.webaim.org/">WAVE Online</a>
-	<li><a href="https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb">Chrome Accessibility Developer Tools</a>
-	<li><a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">aXe for Chrome</a>
-	<li><a href="https://addons.mozilla.org/en-GB/firefox/addon/axe-devtools/">aXe for Firefox</a>
-	<li><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML CodeSniffer (Bookmarklet)</a>
-	<li><a href="http://tenon.io/">Tenon.io</a>
-	<li><a href="https://addons.mozilla.org/en-US/firefox/addon/ainspector-sidebar/">AInspector (Firefox)</a>
-</ul>
+<h2>Tools Run</h2>
+	<ul>
+		<li><a href="https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh">WAVE for Chrome</a>
+		<li><a href="http://wave.webaim.org/">WAVE Online</a>
+		<li><a href="https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb">Chrome Accessibility Developer Tools</a>
+		<li><a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">aXe for Chrome</a>
+		<li><a href="https://addons.mozilla.org/en-GB/firefox/addon/axe-devtools/">aXe for Firefox</a>
+		<li><a href="http://squizlabs.github.io/HTML_CodeSniffer/">HTML CodeSniffer (Bookmarklet)</a>
+		<li><a href="http://tenon.io/">Tenon.io</a>
+		<li><a href="https://addons.mozilla.org/en-US/firefox/addon/ainspector-sidebar/">AInspector (Firefox)</a>
+	</ul>
 
 <h2>Test Results</h2>
-<h3>WAVE for Chrome Issues</h3>
-	<p>None</p>
+	<h3>WAVE for Chrome Issues</h3>
+		<p>None</p>
 
-<h3>WAVE Online</h3>
+	<h3>WAVE Online</h3>
 
-<h3>Chrome Accessibility Developer Tools</h3>
-<ul>
-	<li>14 Instances of Text elements should have a reasonable contrast ratio.
-	<li>1 Instance of The web page should have the content's human language indicated in the markup.
-</ul>
+	<h3>Chrome Accessibility Developer Tools</h3>
+		<ul>
+			<li>14 Instances of Text elements should have a reasonable contrast ratio.
+			<li>1 Instance of The web page should have the content's human language indicated in the markup.
+		</ul>
 
-<h3>aXe for Chrome and Firefox</h3>
-<ul>
-	<li>1 Instance of Eleemtns must have sufficient color contrast
-	<li>1 Instance of Frames must have unique title attribute
-	<li>1 Instance of HTML element must have a valid lang attribute
-</ul>
+	<h3>aXe for Chrome and Firefox</h3>
+		<ul>
+			<li>1 Instance of Elements must have sufficient color contrast
+			<li>1 Instance of Frames must have unique title attribute
+			<li>1 Instance of HTML element must have a valid lang attribute
+		</ul>
 
-<h3>HTML CodeSniffer</h3>
-<ul>
-	<li>4 Instances of Insufficient Contrast
-	<li>Multiple other issues; need to document. Some related to the site and not the embed.
-</ul>
+	<h3>HTML CodeSniffer</h3>
+		<p>None</p>
 
-<h3>Tenon.io</h3>
-<ul>
-	<li>1 Instance of Frames have duplicate titles
-</ul>
+	<h3>Tenon.io</h3>
+		<ul>
+			<li>1 Instance of Frames have duplicate titles
+		</ul>
 
-
-<h3>Accessibility Inspector</h3>
-<ul>
-	<li>1 Instance of IFRAME must have accessible name
-</ul>
+	<h3>Accessibility Inspector</h3>
+		<p>None</p>
