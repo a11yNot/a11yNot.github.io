@@ -12,6 +12,8 @@
   name: image
 - slug: audio
   name: audio
+- slug: aria
+  name: WAI-ARIA
 - slug: video
   name: video
 - slug: caption

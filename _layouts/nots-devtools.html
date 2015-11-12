@@ -1,0 +1,25 @@
+{% assign not = page %}{% if not.tags.size > 0 %}{% for not_tag in not.tags %}{% for data_tag in site.data.tags %}{% if data_tag.slug == not_tag %}{% assign tag = data_tag %}{% endif %}{% endfor %}{% if tag %}{% capture tags_content_temp %}{{ tags_content }}<li><a href="/nots/tag/{{ tag.slug }}">{{ tag.name }}</a>{% if forloop.last == false %}{% endif %}{% endcapture %}{% assign tags_content = tags_content_temp %}{% endif %}{% endfor %}{% else %}{% assign tags_content = '' %}{% endif %}
+<!doctype html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+
+<body>
+{% include header.html %}
+<main>
+<h1 id="{{ not.gistID }}">{{ not.title }}</h1>
+
+{{ content }}
+<nav aria-label="Tags for this Not">
+<h3>Tags for this Not</h3>
+<ul>
+	{{ tags_content }}
+</ul>
+</nav><!-- end Tags for this Not--></main>
+{% include googleAnalytics.html %}
+
+<script async defer src="{{ site.baseurl }}/includes/js/css-polyfills.min.js"></script>
+</body>
+</html>
+
