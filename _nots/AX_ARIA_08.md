@@ -4,6 +4,7 @@ gistID: e24ea75ba197acb94d6a
 layout: nots-devtools
 tags:
 - aria
+- devtools
 ---
 <p>This code example is taken from the <a href="https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules">Accessibility Developer Tool Documentation</a></p>
 
