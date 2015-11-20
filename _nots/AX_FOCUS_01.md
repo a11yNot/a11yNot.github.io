@@ -1,18 +1,18 @@
 ---
-title: AX_ARIA_02
-gistID: f6897b666765ca1850d9
+title: AX_FOCUS_01
+gistID: 0c43eb29bcb63d363aea
 layout: nots-devtools
 tags:
-- aria
-- label
 - devtools
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Not Begin</h2>
 <div class="rendered-not">
-<!-- Bad: typo in aria-labelledby value -->
-<div id="my-label">Label for text input</div>
-<input type="text" aria-labelledby="the-label"></input>
+<!-- Bad: focusable element has zero area due to floated child element -->
+<a href="http://www.google.com">
+  <img src="http://www.google.com/images/srpr/logo11w.png"
+       style="float: left" width="269" height="95" alt="Google" >
+</a>
 </div> <!-- rendered-not -->
 
 <h2 aria-describedby="{{ page.gistID }}">Not End</h2>

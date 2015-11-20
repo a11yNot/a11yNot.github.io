@@ -1,18 +1,18 @@
 ---
-title: AX_ARIA_02
-gistID: f6897b666765ca1850d9
+title: AX_FOCUS_02
+gistID: 773000cae29e38d9b8a6
 layout: nots-devtools
 tags:
-- aria
-- label
-- devtools
+- focus
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Not Begin</h2>
 <div class="rendered-not">
-<!-- Bad: typo in aria-labelledby value -->
-<div id="my-label">Label for text input</div>
-<input type="text" aria-labelledby="the-label"></input>
+<!-- Bad: span with onclick attribute has no tabindex -->
+<span onclick="submitForm();">Submit</span>
+
+<!-- Bad: anchor element without href is not focusable -->
+<a onclick="showNextPage();">Next page</a>
 </div> <!-- rendered-not -->
 
 <h2 aria-describedby="{{ page.gistID }}">Not End</h2>

@@ -1,18 +1,17 @@
 ---
-title: AX_ARIA_02
-gistID: f6897b666765ca1850d9
+title: AX_HTML_02
+gistID: f5910b21c535988894a3
 layout: nots-devtools
 tags:
-- aria
-- label
 - devtools
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Not Begin</h2>
 <div class="rendered-not">
-<!-- Bad: typo in aria-labelledby value -->
-<div id="my-label">Label for text input</div>
-<input type="text" aria-labelledby="the-label"></input>
+<!-- Bad: the id 'trout' should only occur once in the "page" -->
+<input type="radio" id="trout" name="trout" value="rainbow"/>
+<input type="radio" id="trout" name="trout" value="brook"/>
+<input type="radio" id="trout" name="trout" value="lake"/>
 </div> <!-- rendered-not -->
 
 <h2 aria-describedby="{{ page.gistID }}">Not End</h2>

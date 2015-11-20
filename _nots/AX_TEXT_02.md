@@ -1,18 +1,18 @@
 ---
-title: AX_ARIA_02
-gistID: f6897b666765ca1850d9
+title: AX_TEXT_02
+gistID: 7afd836ce46ccdf3131e
 layout: nots-devtools
 tags:
-- aria
-- label
 - devtools
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Not Begin</h2>
 <div class="rendered-not">
-<!-- Bad: typo in aria-labelledby value -->
-<div id="my-label">Label for text input</div>
-<input type="text" aria-labelledby="the-label"></input>
+<!-- Bad: no alternative content provided for informative image -->
+<img src="stateDiagram.jpg">
+
+<!-- Bad: presentational image may not be hidden from assistive technology -->
+<img src="horizontalLine.jpg">
 </div> <!-- rendered-not -->
 
 <h2 aria-describedby="{{ page.gistID }}">Not End</h2>

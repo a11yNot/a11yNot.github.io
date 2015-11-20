@@ -1,18 +1,25 @@
 ---
-title: AX_ARIA_02
-gistID: f6897b666765ca1850d9
+title: AX_TABLE_01b
+gistID: 2b92a146f041b205e8ff
 layout: nots-devtools
 tags:
-- aria
-- label
-- devtools
+- table
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Not Begin</h2>
 <div class="rendered-not">
-<!-- Bad: typo in aria-labelledby value -->
-<div id="my-label">Label for text input</div>
-<input type="text" aria-labelledby="the-label"></input>
+<table role="presentation"> 
+  <tr>
+    <th>Header</th>
+    <th>Header</th>
+    <th>Header</th>
+  </tr>
+  <tr>
+    <td>Cell</td>
+    <td>Cell</td>
+    <td>Cell</td>
+  </tr>
+</table>
 </div> <!-- rendered-not -->
 
 <h2 aria-describedby="{{ page.gistID }}">Not End</h2>

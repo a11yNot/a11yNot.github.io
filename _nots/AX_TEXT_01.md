@@ -1,18 +1,19 @@
 ---
-title: AX_ARIA_02
-gistID: f6897b666765ca1850d9
+title: AX_TEXT_01
+gistID: de8704af985f60a4bb4d
 layout: nots-devtools
 tags:
-- aria
-- label
 - devtools
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Not Begin</h2>
 <div class="rendered-not">
-<!-- Bad: typo in aria-labelledby value -->
-<div id="my-label">Label for text input</div>
-<input type="text" aria-labelledby="the-label"></input>
+<div>
+  Enter your address:
+  <input id="address">                <!-- Bad: label not associated with control -->
+</div>
+
+<button class="enter_site"></button>  <!-- Bad: button has no text description -->
 </div> <!-- rendered-not -->
 
 <h2 aria-describedby="{{ page.gistID }}">Not End</h2>
