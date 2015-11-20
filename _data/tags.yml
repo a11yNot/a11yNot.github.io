@@ -20,6 +20,8 @@
   name: caption
 - slug: transcript
   name: transcript
+- slug: focus
+  name: focus
 - slug: form
   name: form
 - slug: table
