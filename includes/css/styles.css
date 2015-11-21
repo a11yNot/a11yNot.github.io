@@ -1,5 +1,6 @@
 @import url(http://necolas.github.io/normalize.css/3.0.2/normalize.css);
 @import url(gist.css);
+@import url(codepen.css);
 
 body {
 	font-size: 16px;
@@ -28,6 +29,7 @@ main {
 	outline: 5px solid #373E6F;
 	border: 5px solid #E6CD74;
 	padding: 10px;
+	overflow: auto;
 }
 
 @media (orientation: landscape) {
