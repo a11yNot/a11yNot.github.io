@@ -1,7 +1,7 @@
 ---
 title: AX_ARIA_12
 gistID: 2a24e6e39f1ca539dd5b
-layout: nots-devtools
+source: devtools
 tags:
 - aria
 - devtools

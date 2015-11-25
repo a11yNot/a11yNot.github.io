@@ -1,7 +1,7 @@
 ---
 title: AX_COLOR_01
 gistID: 097599b455099e246b84
-layout: nots-devtools
+source: devtools
 tags:
 - color
 - devtools

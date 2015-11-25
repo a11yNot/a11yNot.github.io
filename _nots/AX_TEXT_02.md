@@ -1,7 +1,7 @@
 ---
 title: AX_TEXT_02
 gistID: 7afd836ce46ccdf3131e
-layout: nots-devtools
+source: devtools
 tags:
 - devtools
 ---

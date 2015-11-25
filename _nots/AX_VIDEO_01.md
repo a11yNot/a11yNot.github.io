@@ -1,7 +1,7 @@
 ---
 title: AX_VIDEO_01
 gistID: 81fc25a8de7476ae6cfc
-layout: nots-devtools
+source: devtools
 tags:
 - video
 - devtools

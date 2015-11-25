@@ -1,7 +1,7 @@
 ---
 title: AX_TABLE_01b
 gistID: 2b92a146f041b205e8ff
-layout: nots-devtools
+source: devtools
 tags:
 - table
 ---

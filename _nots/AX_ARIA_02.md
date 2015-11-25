@@ -1,7 +1,7 @@
 ---
 title: AX_ARIA_02
 gistID: f6897b666765ca1850d9
-layout: nots-devtools
+source: devtools
 tags:
 - aria
 - label

@@ -3,6 +3,11 @@
 <html lang="en">
 <head>
 {% include head.html %}
+{% if not.css == 'true' %}
+<!-- Begin Custom Styles for Not -->
+<link rel="stylesheet" href="{{ site.baseurl }}/includes/css/nots/{{ page.url | remove: "/nots/" | remove: ".html" }}.css">
+<!-- End Custom Styles for Not -->
+{% endif %}
 </head>
 
 <body>
@@ -10,16 +15,26 @@
 <main>
 <h1 id="{{ not.gistID }}">{{ not.title }}</h1>
 
+{% if not.source == 'devtools' %}
+<p>This code example is taken from the <a href="https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules">Accessibility Developer Tool Documentation</a></p>
+{% endif %}
+{% if not.source == 'w3' %}
+<p>This code example is taken from the <a href="http://www.w3.org/TR/2015/NOTE-WCAG20-TECHS-20150226/failures.html">Failures for WCAG 2.0</a></p>
+{% endif %}
+{% if not.css == 'true' %}
+<p>CSS for this example can be found in the HEAD element of this page.</p>
+{% endif %}
+
 {{ content }}
 <nav aria-label="Tags for this Not">
 <h2>Tags for this Not</h2>
 <ul>
 	{{ tags_content }}
 </ul>
+
 </nav><!-- end Tags for this Not--></main>
 {% include googleAnalytics.html %}
 
 <script async defer src="{{ site.baseurl }}/includes/js/css-polyfills.min.js"></script>
 </body>
 </html>
-
