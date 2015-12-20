@@ -1,0 +1,54 @@
+.menu1 { 
+     position: absolute; 
+     top: 3em; 
+     left: 0em;     
+     margin: 0px; 
+     font-family: sans-serif;     
+     font-size: 120%; 
+     color: red; 
+     background-color: white 
+}        
+.menu2 { 
+     position: absolute; 
+     top: 3em; 
+     left: 10em;     
+     margin: 0px; 
+     font-family: sans-serif;     
+     font-size: 120%; 
+     color: red; 
+     background-color: white 
+}      
+.item1 { 
+     position: absolute; 
+     top: 7em; 
+     left: 0em; 
+     margin: 0px 
+}      
+.item2 { 
+     position: absolute; 
+     top: 8em; 
+     left: 0em; 
+     margin: 0px 
+}      
+.item3 { 
+     position: absolute; 
+     top: 9em; 
+     left: 0em; 
+     margin: 0px 
+}      
+.item4 { 
+     position: absolute; 
+     top: 7em; 
+     left: 14em; 
+     margin: 0px 
+}      
+.item5 { 
+     position: absolute; 
+     top: 8em; left: 14em; 
+     margin: 0px 
+}      
+#box { 
+     position: absolute; 
+     top: 5em; 
+     left: 5em 
+}
