@@ -32,6 +32,10 @@ main {
 	overflow: auto;
 }
 
+iframe {
+  border: none;
+}
+
 @media (orientation: landscape) {
 
 	header, nav[aria-label="Main Navigation"] {
