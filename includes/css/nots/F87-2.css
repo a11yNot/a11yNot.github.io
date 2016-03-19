@@ -1,0 +1,2 @@
+ p.fact:before { content: "Fact: "; font-weight: bold; }
+ p.opinion:before { content: "Opinion: "; font-weight: bold; }

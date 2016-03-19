@@ -1,0 +1,19 @@
+ul#booklist li {
+  padding-left: 20px;
+}
+
+ul#booklist li.new {
+  background: transparent url(new.png) no-repeat top left; 
+}
+                            
+ul#booklist li.limited {
+  background: transparent url(limited.png) no-repeat top left; 
+}
+                            
+ul#booklist li.instock {
+  background: transparent url(instock.png) no-repeat top left; 
+}
+
+ul#booklist li.outstock {
+  background: transparent url(outstock.png) no-repeat top left; 
+}

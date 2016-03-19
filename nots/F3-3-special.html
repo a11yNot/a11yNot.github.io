@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example Page for a11yNot&#58; W3&#58; F3-3&#58; Using CSS to include images that convey important information</title>
+	<link rel=icon href="/includes/images/a11yNot.png" type="image/png">
+</head>
+
+<body>
+
+<p id="bestinterest" style="background: transparent url(/images/TopRate.png) no-repeat top left;" >
+Where else would you find a better interest rate?
+<p>
+<script type="text/javascript">
+var newP = document.createElement('p');
+var newPText = document.createTextNode('Where else would you find a better interest rate?');
+newP.appendChild(newPText);
+newP.style.background = 'transparent url(/images/TopRate.png) no-repeat top left';
+document.body.appendChild(newP);
+</script>
+
+</body>
+</html>
