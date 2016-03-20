@@ -34,6 +34,10 @@ main {
 
 iframe {
   border: none;
+  height: 100vh;
+  max-height: 250px;
+  width: 100vw;
+  max-width: 500px;
 }
 
 @media (orientation: landscape) {
