@@ -7,7 +7,7 @@ tags:
 - devtools
 ---
 
-<h2 aria-describedby="{{ page.gistID }}">Not Begin</h2>
+<h2 aria-describedby="{{ page.gistID }}">Example Begin</h2>
 <div class="rendered-not">
 <!-- Bad: small text with a contrast ratio of less than 4.5:1 -->
 <p style="color: gray">  <!-- Contrast ratio 3.95:1 -->
@@ -17,7 +17,7 @@ Warning: this product should not be used by any minor without adult supervision.
 <h1 style="color: #BBB">Very subtle heading</h1>  <!-- Contrast ratio 1.92:1 -->
 </div> <!-- rendered-not -->
 
-<h2 aria-describedby="{{ page.gistID }}">Not End</h2>
+<h2 aria-describedby="{{ page.gistID }}">Example End</h2>
 
-<h3 aria-describedby="{{ page.gistID }}">Code for this Not</h3>
+<h3 aria-describedby="{{ page.gistID }}">Code for this Example</h3>
 {% gist page.gistID %}

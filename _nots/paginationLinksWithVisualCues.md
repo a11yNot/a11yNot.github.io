@@ -5,7 +5,7 @@ tags:
 - link
 ---
 
-<h2 aria-describedby="{{ page.gistID }}">Not Begin</h2>
+<h2 aria-describedby="{{ page.gistID }}">Example Begin</h2>
 <div class="rendered-not">
 <ul>
   <li style="display: inline;"><a href="">First</a></li>
@@ -21,7 +21,7 @@ tags:
 </ul>
 </div> <!-- rendered-not -->
 
-<h2 aria-describedby="{{ page.gistID }}">Not End</h2>
+<h2 aria-describedby="{{ page.gistID }}">Example End</h2>
 
-<h3 aria-describedby="{{ page.gistID }}">Code for this Not</h3>
+<h3 aria-describedby="{{ page.gistID }}">Code for this Example</h3>
 {% gist page.gistID %}

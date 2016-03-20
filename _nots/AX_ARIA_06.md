@@ -7,7 +7,7 @@ tags:
 - devtools
 ---
 
-<h2 aria-describedby="{{ page.gistID }}">Not Begin</h2>
+<h2 aria-describedby="{{ page.gistID }}">Example Begin</h2>
 <div class="rendered-not">
 <!-- Bad: the ownership is implicit in the DOM structure (each radio is a descendant of the radiogroup) -->
 <ul role="radiogroup" aria-labelledby="foo" aria-owns="radio1 radio2 radio3"> 
@@ -17,7 +17,7 @@ tags:
 </ul>
 </div> <!-- rendered-not -->
 
-<h2 aria-describedby="{{ page.gistID }}">Not End</h2>
+<h2 aria-describedby="{{ page.gistID }}">Example End</h2>
 
-<h3 aria-describedby="{{ page.gistID }}">Code for this Not</h3>
+<h3 aria-describedby="{{ page.gistID }}">Code for this Example</h3>
 {% gist page.gistID %}
