@@ -3,9 +3,10 @@ title: AX_ARIA_02
 gistID: f6897b666765ca1850d9
 source: devtools
 tags:
-- aria
-- label
+- ainspector 
+- axe
 - devtools
+- wave
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Example Begin</h2>
