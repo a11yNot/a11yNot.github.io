@@ -4,8 +4,7 @@ gistID: 4b6cd17c1e4a3ad175e6
 layout: nots
 source: devtools
 tags:
-- aria
-- role
+- ainspector
 - axe
 ---
 
