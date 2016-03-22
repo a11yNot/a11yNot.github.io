@@ -3,7 +3,7 @@ title: AX_FOCUS_02
 gistID: 773000cae29e38d9b8a6
 source: devtools
 tags:
-- focus
+- ainspector
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Example Begin</h2>
