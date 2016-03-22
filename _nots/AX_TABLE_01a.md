@@ -3,7 +3,7 @@ title: AX_TABLE_01a
 gistID: 42a9cd1ae7125e0b1e75
 source: devtools
 tags:
-- table
+- axe
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Example Begin</h2>
