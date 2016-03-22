@@ -3,8 +3,7 @@ title: AX_COLOR_01
 gistID: 097599b455099e246b84
 source: devtools
 tags:
-- color
-- devtools
+- axe
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Example Begin</h2>
