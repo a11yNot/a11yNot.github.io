@@ -3,8 +3,7 @@ title: AX_HTML_01
 gistID: 37ce3c0be0f48ce984cb
 source: devtools
 tags:
-- language
-- devtools
+- axe
 ---
 
 <p>This code example is taken from the <a href="https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules">Accessibility Developer Tool Documentation</a></p>
