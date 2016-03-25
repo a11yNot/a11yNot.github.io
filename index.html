@@ -6,7 +6,6 @@ title: Home&#58; All Nots
 <h1>All Nots</h1>
 
 <h2>a11yNots</h2>
-<p>Several Nots currently have issues.</p>
 {% assign nots = site.nots %}
 <ul>{% for not in nots %}
 {% if not.source != 'devtools' %}{% if not.source != 'w3' %}	<li><a href="{{ not.url }}">{{ not.title }}</a>{% endif %}{% endif %}
