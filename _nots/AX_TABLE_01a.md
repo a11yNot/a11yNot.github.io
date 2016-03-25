@@ -3,6 +3,7 @@ title: AX_TABLE_01a
 gistID: 42a9cd1ae7125e0b1e75
 source: devtools
 tags:
+- ainspector
 - axe
 ---
 

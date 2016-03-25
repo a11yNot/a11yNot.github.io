@@ -3,7 +3,10 @@ title: AX_TEXT_02
 gistID: 7afd836ce46ccdf3131e
 source: devtools
 tags:
+- ainspector
+- axe
 - devtools
+- wave
 ---
 
 <h2 aria-describedby="{{ page.gistID }}">Example Begin</h2>

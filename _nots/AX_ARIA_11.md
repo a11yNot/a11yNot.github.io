@@ -3,7 +3,8 @@ title: AX_ARIA_11
 gistID: 792c0ce0c42c82529c39
 source: devtools
 tags:
-- aria
+- ainspector
+- axe
 - devtools
 ---
 
